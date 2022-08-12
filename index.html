@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex , nofollow">
+  <title>Cresta Design</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+      <h1>Cresta Design</h1>
+      <nav>
+        <ul id="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p class="hamburger"><i class="bi bi-list" id="open"></i></p>
+      <div class="overlay">
+        <p><i class="bi bi-x-lg" id="close"></i></p>
+        <ul>
+          <li><a href="#about" class="about">About</a></li>
+          <li><a href="#service" class="service">Service</a></li>
+          <li><a href="#news" class="news">News</a></li>
+          <li><a href="#contact" class="contact">Contact</a></li>
+        </ul>
+      </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <picture>
+        <source media="(min-width: 600px)" srcset="img/fv-bgi@2x.jpg">
+        <img src="img/fv-bgi_sp@2x.jpg" alt="">
+      </picture>
+      <p>Cresta Design.</p>
+    </div>
+
+    <div class="container">
+      <section class="about" id="about">
+        <h2>About</h2>
+        <p>ミニマルで<br>洗練されたデザインを。</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </section>
+
+      <section class="service" id="service">
+        <h2>Service</h2>
+        <ul>
+          <li>
+            <div class="text-wrap">
+              <p class="large-text">リリース時のサポートで<br>サービスのブランディングを<p>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <img src="img/service-image@2x.jpg" alt="">
+          </li>
+          <li>
+            <div class="text-wrap">
+              <p class="large-text">リリース後のサポートで<br>効果を最大化させる<p>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <img src="img/service-image02@2x.jpg" alt="">
+          </li>
+        </ul>
+      </section>
+
+      <section class="news" id="news">
+        <h2>News</h2>
+        <ul>
+          <li>
+            <div class="card">
+              <img src="img/card-image1@2x.jpg" alt="">
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="img/card-image2@2x.jpg" alt="">
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="img/card-image3@2x.jpg" alt="">
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>お問い合わせ</h2>
+        <ul>
+          <li><label for="name">担当者名</label><input type="text" id="name"></li>
+          <li><label for="tel">電話番号</label><input type="text" id="tel"></li>
+          <li><label for="email">メールアドレス</label><input type="text" id="email"></li>
+          <li><label for="content">お問い合わせ内容</label><textarea name="" id="content" rows="10"></textarea></li>
+        </ul>
+        <div class="send"><a href="#">送信</a></div>
+      </section>
+    </div>
+  </main>
+
+  <footer><small>© crest.design all rights reserved</small></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
